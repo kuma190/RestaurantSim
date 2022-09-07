@@ -1,6 +1,6 @@
 # CSCE310RestaurantSimulator
 
-**Created with a team, copied over from an enterprise github account**
+**Created with a team**
 
 install nodejs 
 https://nodejs.org/en/download/
