@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Navbar Section -->
+    <nav class="navbar">
+      <div class="navbar__container">
+        <a href="index.html" id="navbar__logo"><i class="fas fa-utensils fa-fw"></i>Restaurant Simulator</a>
+        <div class="navbar__toggle" id="mobile-menu">
+          <span class="bar"></span> <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul class="navbar__menu">
+          <li class="navbar__item">
+            <a href="menu.html" class="navbar__links">Menu</a>
+          </li>
+          <li class="navbar__item">
+            <a href="resloc.html" class="navbar__links">Locations</a>
+          </li>
+          <li class="navbar__btn">
+            <a href="register.html" class="button">Register</a></li>
+          </li>
+          <li class="navbar__btn">
+            <a href="login.html" class="button">Login</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Register Section -->
+    <div class="login">
+			<h1>Register</h1>
+			<form action="/auth" method="post">
+				<label for="First Name">
+					<!-- font awesome icon -->
+					<i class="fas fa-user"></i>
+				</label>
+				<input type="text" name="firstname" placeholder="First Name" id="firstname" required>
+
+                <label for="Last Name">
+					<!-- font awesome icon -->
+					<i class="fas fa-user"></i>
+				</label>
+				<input type="text" name="lastname" placeholder="Last Name" id="lastname" required>
+                
+                <label for="username">
+					<!-- font awesome icon -->
+					<i class="fas fa-user"></i>
+				</label>
+				<input type="text" name="username" placeholder="Username" id="username" required>
+
+				<label for="password">
+					<i class="fas fa-lock"></i>
+				</label>
+				<input type="password" name="password" placeholder="Password" id="password" required>
+
+                <label for="email">
+					<!-- font awesome icon -->
+					<i class="fas fa-user"></i>
+				</label>
+				<input type="text" name="email" placeholder="Email" id="email" required>
+
+                <label for="address">
+					<!-- font awesome icon -->
+					<i class="fas fa-user"></i>
+				</label>
+				<input type="text" name="address" placeholder="Address" id="address" required>
+
+                <label for="city">
+					<!-- font awesome icon -->
+					<i class="fas fa-user"></i>
+				</label>
+				<input type="text" name="city" placeholder="City" id="city" required>
+
+                <label for="state">
+					<!-- font awesome icon -->
+					<i class="fas fa-user"></i>
+				</label>
+				<input type="text" name="state" placeholder="State" id="state" required>
+
+                <label for="zip">
+					<!-- font awesome icon -->
+					<i class="fas fa-user"></i>
+				</label>
+				<input type="text" name="zip" placeholder="Zip Code" id="zip" required>
+                
+                <p>Registering as an admin?</p>
+                <label for="is_admin">
+					<!-- font awesome icon -->
+					<i class="fas fa-user"></i>
+				</label>
+				<input type="checkbox" name="is_admin" placeholder="Sign up as Admin?" id="is_admin">
+
+                <label for="birthdate">
+					<!-- font awesome icon -->
+					<i class="fas fa-user"></i>
+				</label>
+				<input type="date" name="birthdate" placeholder="Birth Date" id="birthdate" required>
+                <br>
+                <br>
+                <br>
+                
+
+				<input type="submit" value="Register">
+			</form>
+		</div>
+
+    <!-- Footer Section -->
+    <div class="footer__container">
+      <div class="footer__links">
+        <div class="footer__link--wrapper">
+          <div class="footer__link--items">
+            <h2>About Us</h2>
+            <a href="/sign__up">Our Story</a> <a href="/">Food Allergies</a>
+            <a href="/">Careers</a> <a href="/">Giving Back</a>
+            <a href="/">Terms of Service</a>
+          </div>
+          <div class="footer__link--items">
+            <h2>Contact Us</h2>
+            <a href="/">Phone</a> <a href="/">Email</a>
+            <a href="/">Support</a> <a href="/">Text</a>
+          </div>
+        </div>
+        <div class="footer__link--wrapper">
+          <div class="footer__link--items">
+            <h2>Videos</h2>
+            <a href="/">Kitchen Tour</a> <a href="/">A Word From Our Creator</a>
+            <a href="/">Commitment to Quality</a> <a href="/">Customer Testimonials</a>
+          </div>
+          <div class="footer__link--items">
+            <h2>Social Media</h2>
+            <a href="/">Facebook</a> <a href="/">Instagram</a>
+            <a href="/">Youtube</a> <a href="/">Twitter</a> <a href="/">LinkedIN</a>
+          </div>
+        </div>
+      </div>
+      <section class="social__media">
+        <div class="social__media--wrap">
+          <div class="footer__logo">
+            <a href="/" id="footer__logo"><i class="fas fa-utensils fa-fw"></i>Restaurant Simulator</a>
+          </div>
+          <p class="website__rights">© Restaurant Simulator 2022. All rights reserved</p>
+          <div class="social__icons">
+            <a
+              class="social__icon--link"
+              href="/"
+              target="_blank"
+              aria-label="Facebook"
+            >
+              <i class="fab fa-facebook"></i>
+            </a>
+            <a
+              class="social__icon--link"
+              href="/"
+              target="_blank"
+              aria-label="Instagram"
+            >
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a
+              class="social__icon--link"
+              href="//www.youtube.com/channel/UCsKsymTY_4BYR-wytLjex7A?view_as=subscriber"
+              target="_blank"
+              aria-label="Youtube"
+            >
+              <i class="fab fa-youtube"></i>
+            </a>
+            <a
+              class="social__icon--link"
+              href="/"
+              target="_blank"
+              aria-label="Twitter"
+            >
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a
+              class="social__icon--link"
+              href="/"
+              target="_blank"
+              aria-label="LinkedIn"
+            >
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
